@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Karaoke</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./src/style/index.css">
+</head>
+
+<body>
+  <div class="container">
+    <section class="cover-img">
+      <h1 id="song-title" class="title"></h1>
+      <img src="./src/assets/cover.jpeg">
+    </section>
+    <section class="audio-player">
+      <audio src="src/assets/crystalgems.mp3" controls onplay="getCurrentLine(event)"></audio>
+    </section>
+    <section class="lyrics">
+      <div id="lyrics-placeholder" class="lyrics-wrapper"></div>
+    </section>
+  </div>
+  <script type="text/javascript" src="src/js/index.js"></script>
+</body>
+
+</html>
