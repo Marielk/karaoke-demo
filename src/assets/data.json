@@ -1,0 +1,74 @@
+{
+  "songs": [
+    {
+      "id": 0,
+      "title": "We are the Crystal Gems",
+      "cover": "src/assets/img/cover.jpeg",
+      "lrc": "src/assets/lrc/crystalgems.lrc",
+      "mp3": "src/assets/mp3/crystalgems.mp3"
+    },
+    {
+      "id": 1,
+      "title": "Be wherever you are",
+      "cover": "src/assets/img/bwya.jpeg",
+      "lrc": "src/assets/lrc/beWhereverYouAre.lrc",
+      "mp3": "src/assets/mp3/bwya.mp3"
+    },
+    {
+      "id": 2,
+      "title": "Change",
+      "cover": "src/assets/img/change.png",
+      "lrc": "src/assets/lrc/change.lrc",
+      "mp3": "src/assets/mp3/change.mp3"
+    },
+    {
+      "id": 3,
+      "title": "Drift away",
+      "cover": "src/assets/img/daway.jpeg",
+      "lrc": "src/assets/lrc/driftAway.lrc",
+      "mp3": "src/assets/mp3/daway.mp3"
+    },
+    {
+      "id": 4,
+      "title": "Escapism",
+      "cover": "src/assets/img/escapism.jpeg",
+      "lrc": "src/assets/lrc/escapism.lrc",
+      "mp3": "src/assets/mp3/escapism.mp3"
+    },
+    {
+      "id": 5,
+      "title": "Familiar",
+      "cover": "src/assets/img/familiar.png",
+      "lrc": "src/assets/lrc/familiar.lrc",
+      "mp3": "src/assets/mp3/familiar.mp3"
+    },
+    {
+      "id": 6,
+      "title": "Here comes a thought",
+      "cover": "src/assets/img/hcat.png",
+      "lrc": "src/assets/lrc/HereComesAThought.lrc",
+      "mp3": "src/assets/mp3/hcat.mp3"
+    },
+    {
+      "id": 7,
+      "title": "Let's only think about love",
+      "cover": "src/assets/img/lotal.jpeg",
+      "lrc": "src/assets/lrc/letsOnlyThinkAboutLove.lrc",
+      "mp3": "src/assets/mp3/lotal.mp3"
+    },
+    {
+      "id": 8,
+      "title": "Love like you",
+      "cover": "src/assets/img/lovelikeyou.jpeg",
+      "lrc": "src/assets/lrc/loveLikeYou.lrc",
+      "mp3": "src/assets/mp3/lovelikeyou.mp3"
+    },
+    {
+      "id": 9,
+      "title": "True kind of love",
+      "cover": "src/assets/img/truekol.jpeg",
+      "lrc": "src/assets/lrc/trueKindOfLove.lrc",
+      "mp3": "src/assets/mp3/truekol.mp3"
+    }
+  ]
+}

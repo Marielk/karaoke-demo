@@ -14,15 +14,22 @@
 
 <body>
   <div class="container">
-    <section class="cover-img">
-      <h1 id="song-title" class="title"></h1>
-      <img src="./src/assets/cover.jpeg">
+    <button id="backBtn" onclick="onBack()">
+      <img class="icon-button" src="src/assets/arrow-left.svg">
+    </button>
+    <section id="listSongs">
     </section>
-    <section class="audio-player">
-      <audio src="src/assets/crystalgems.mp3" controls onplay="getCurrentLine(event)"></audio>
-    </section>
-    <section class="lyrics">
-      <div id="lyrics-placeholder" class="lyrics-wrapper"></div>
+    <section id="songPlayer">
+      <div class="cover-img">
+        <h1 id="song-title" class="title"></h1>
+        <img id="songImg">
+      </div>
+      <div class="audio-player">
+        <audio id="audioElement" controls onplay="getCurrentLine(event)"></audio>
+      </div>
+      <div class="lyrics">
+        <div id="lyrics-placeholder" class="lyrics-wrapper"></div>
+      </div>
     </section>
   </div>
   <script type="text/javascript" src="src/js/index.js"></script>
