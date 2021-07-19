@@ -192,8 +192,8 @@ audio::-webkit-media-controls-panel{
   }
 
   #backBtn{
-    left: 0;
-    top: 85%;
+    left: 7px;
+    top: -18px;
   }
   .blur {
     background: rgba(255, 255, 255, 0.5);
