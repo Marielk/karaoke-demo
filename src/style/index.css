@@ -75,9 +75,13 @@ body{
   width: 60%;
 }
 
-img{
+.song-cover{
   width: 70%;
   margin-bottom: 25px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 10px 6px -6px #777;
+  -moz-box-shadow: 0 10px 6px -6px #777;
+  box-shadow: 0 10px 6px -6px #777;
 }
 
 .title{
@@ -162,16 +166,21 @@ audio::-webkit-media-controls-panel{
 }
 
 @media only screen and (max-width: 600px) {
+  body{
+    margin: 0px;
+  }
+
   .container {
     height: 100vh;
-    width: 90vw;
+    width: 100vw;
   }
 
   .songOption{
-    color: #f0f018;
+    color: mediumvioletred;
+    font-weight: bold;
     font-size: 18px;
     background-blend-mode: normal;
-    text-shadow: 1px 1px (255, 255, 255, 0.2);
+    text-shadow: none;
   }
 
   .title{
@@ -183,8 +192,11 @@ audio::-webkit-media-controls-panel{
   }
 
   #backBtn{
-    left: -6%;
+    left: 0;
     top: 85%;
+  }
+  .blur {
+    background: rgba(255, 255, 255, 0.5);
   }
   .cover-img{
     display: flex;
